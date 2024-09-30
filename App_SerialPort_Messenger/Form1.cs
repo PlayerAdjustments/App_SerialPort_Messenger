@@ -43,12 +43,6 @@ namespace App_SerialPort_Messenger
                 c.Font = new Font(pfc.Families[0], c.Font.Size, c.Font.Style);
             }
 
-            serialPort = new SerialPort();
-            serialPort.BaudRate = 115200;
-            serialPort.PortName = "COM5";
-            serialPort.Open();
-            Message_Receiver_manager messageManager = new Message_Receiver_manager(serialPort);
-
         }
 
         private void UsersList_Paint(object sender, PaintEventArgs e)
