@@ -12,15 +12,21 @@ using System.Security.Policy;
 using MaterialSkin;
 using MaterialSkin.Controls;
 using System.IO;
+using App_SerialPort_Messenger.bin.Debug.Logs;
+using System.IO.Ports;
 
 namespace App_SerialPort_Messenger
 {
     public partial class Main_Dashboard : MaterialForm
     {
+<<<<<<< HEAD
+        private SerialPort serialPort;
+=======
        
         List<Button> ContactUserBtns = new List<Button>();
         string CurrentUser = "Mu";
         string ChattingWith = null;
+>>>>>>> main
 
         public Main_Dashboard()
         {
@@ -55,6 +61,11 @@ namespace App_SerialPort_Messenger
 
         }
 
+<<<<<<< HEAD
+        private void TxtBox_Message_Click(object sender, EventArgs e)
+        {
+
+=======
 
 
         /// <summary>
@@ -208,6 +219,7 @@ namespace App_SerialPort_Messenger
 
             // If we have something to send
             SendMessage(TxtBox_Message.Text.Trim(), this.ChattingWith);
+>>>>>>> main
         }
     }
 }

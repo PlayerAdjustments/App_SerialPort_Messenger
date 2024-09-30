@@ -39,7 +39,10 @@
             this.Btn_Chatting_With = new MaterialSkin.Controls.MaterialButton();
             this.TxtBox_Message = new MaterialSkin.Controls.MaterialTextBox2();
             this.Btn_SendMsg = new MaterialSkin.Controls.MaterialButton();
+<<<<<<< HEAD
+=======
             this.Chat_TextBox = new MaterialSkin.Controls.MaterialMultiLineTextBox();
+>>>>>>> main
             this.UsersList.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,12 +57,12 @@
             this.UsersList.Controls.Add(this.Btn_ContactUser_Alpha);
             this.UsersList.Depth = 0;
             this.UsersList.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.UsersList.Location = new System.Drawing.Point(624, 70);
-            this.UsersList.Margin = new System.Windows.Forms.Padding(14);
+            this.UsersList.Location = new System.Drawing.Point(832, 86);
+            this.UsersList.Margin = new System.Windows.Forms.Padding(19, 17, 19, 17);
             this.UsersList.MouseState = MaterialSkin.MouseState.HOVER;
             this.UsersList.Name = "UsersList";
-            this.UsersList.Padding = new System.Windows.Forms.Padding(14);
-            this.UsersList.Size = new System.Drawing.Size(159, 290);
+            this.UsersList.Padding = new System.Windows.Forms.Padding(19, 17, 19, 17);
+            this.UsersList.Size = new System.Drawing.Size(212, 357);
             this.UsersList.TabIndex = 0;
             this.UsersList.Paint += new System.Windows.Forms.PaintEventHandler(this.UsersList_Paint);
             // 
@@ -71,19 +74,31 @@
             this.Btn_ContactUser_Omega.Depth = 0;
             this.Btn_ContactUser_Omega.HighEmphasis = true;
             this.Btn_ContactUser_Omega.Icon = global::App_SerialPort_Messenger.Properties.Resources.User_6;
+<<<<<<< HEAD
+            this.Btn_ContactUser_Omega.Location = new System.Drawing.Point(0, 303);
+            this.Btn_ContactUser_Omega.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
+            this.Btn_ContactUser_Omega.MouseState = MaterialSkin.MouseState.HOVER;
+            this.Btn_ContactUser_Omega.Name = "Btn_ContactUser_Omega";
+            this.Btn_ContactUser_Omega.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.Btn_ContactUser_Omega.Size = new System.Drawing.Size(212, 44);
+=======
             this.Btn_ContactUser_Omega.Location = new System.Drawing.Point(0, 246);
             this.Btn_ContactUser_Omega.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.Btn_ContactUser_Omega.MouseState = MaterialSkin.MouseState.HOVER;
             this.Btn_ContactUser_Omega.Name = "Btn_ContactUser_Omega";
             this.Btn_ContactUser_Omega.NoAccentTextColor = System.Drawing.Color.Empty;
             this.Btn_ContactUser_Omega.Size = new System.Drawing.Size(159, 36);
+>>>>>>> main
             this.Btn_ContactUser_Omega.TabIndex = 5;
             this.Btn_ContactUser_Omega.Text = "Omega";
             this.Btn_ContactUser_Omega.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_ContactUser_Omega.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.Btn_ContactUser_Omega.UseAccentColor = false;
             this.Btn_ContactUser_Omega.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+=======
             this.Btn_ContactUser_Omega.Click += new System.EventHandler(this.Btn_ContactUser_Omega_Click);
+>>>>>>> main
             // 
             // Btn_ContactUser_Beta
             // 
@@ -93,19 +108,31 @@
             this.Btn_ContactUser_Beta.Depth = 0;
             this.Btn_ContactUser_Beta.HighEmphasis = true;
             this.Btn_ContactUser_Beta.Icon = global::App_SerialPort_Messenger.Properties.Resources.User_3;
+<<<<<<< HEAD
+            this.Btn_ContactUser_Beta.Location = new System.Drawing.Point(0, 70);
+            this.Btn_ContactUser_Beta.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
+            this.Btn_ContactUser_Beta.MouseState = MaterialSkin.MouseState.HOVER;
+            this.Btn_ContactUser_Beta.Name = "Btn_ContactUser_Beta";
+            this.Btn_ContactUser_Beta.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.Btn_ContactUser_Beta.Size = new System.Drawing.Size(212, 44);
+=======
             this.Btn_ContactUser_Beta.Location = new System.Drawing.Point(0, 57);
             this.Btn_ContactUser_Beta.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.Btn_ContactUser_Beta.MouseState = MaterialSkin.MouseState.HOVER;
             this.Btn_ContactUser_Beta.Name = "Btn_ContactUser_Beta";
             this.Btn_ContactUser_Beta.NoAccentTextColor = System.Drawing.Color.Empty;
             this.Btn_ContactUser_Beta.Size = new System.Drawing.Size(159, 36);
+>>>>>>> main
             this.Btn_ContactUser_Beta.TabIndex = 4;
             this.Btn_ContactUser_Beta.Text = "Beta";
             this.Btn_ContactUser_Beta.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_ContactUser_Beta.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.Btn_ContactUser_Beta.UseAccentColor = false;
             this.Btn_ContactUser_Beta.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+=======
             this.Btn_ContactUser_Beta.Click += new System.EventHandler(this.Btn_ContactUser_Beta_Click);
+>>>>>>> main
             // 
             // Btn_ContactUser_Xi
             // 
@@ -115,19 +142,31 @@
             this.Btn_ContactUser_Xi.Depth = 0;
             this.Btn_ContactUser_Xi.HighEmphasis = true;
             this.Btn_ContactUser_Xi.Icon = global::App_SerialPort_Messenger.Properties.Resources.User_2;
+<<<<<<< HEAD
+            this.Btn_ContactUser_Xi.Location = new System.Drawing.Point(0, 188);
+            this.Btn_ContactUser_Xi.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
+            this.Btn_ContactUser_Xi.MouseState = MaterialSkin.MouseState.HOVER;
+            this.Btn_ContactUser_Xi.Name = "Btn_ContactUser_Xi";
+            this.Btn_ContactUser_Xi.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.Btn_ContactUser_Xi.Size = new System.Drawing.Size(212, 44);
+=======
             this.Btn_ContactUser_Xi.Location = new System.Drawing.Point(0, 153);
             this.Btn_ContactUser_Xi.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.Btn_ContactUser_Xi.MouseState = MaterialSkin.MouseState.HOVER;
             this.Btn_ContactUser_Xi.Name = "Btn_ContactUser_Xi";
             this.Btn_ContactUser_Xi.NoAccentTextColor = System.Drawing.Color.Empty;
             this.Btn_ContactUser_Xi.Size = new System.Drawing.Size(159, 36);
+>>>>>>> main
             this.Btn_ContactUser_Xi.TabIndex = 3;
             this.Btn_ContactUser_Xi.Text = "Xi";
             this.Btn_ContactUser_Xi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_ContactUser_Xi.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.Btn_ContactUser_Xi.UseAccentColor = false;
             this.Btn_ContactUser_Xi.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+=======
             this.Btn_ContactUser_Xi.Click += new System.EventHandler(this.Btn_ContactUser_Xi_Click);
+>>>>>>> main
             // 
             // Btn_ContactUser_Mu
             // 
@@ -137,19 +176,31 @@
             this.Btn_ContactUser_Mu.Depth = 0;
             this.Btn_ContactUser_Mu.HighEmphasis = true;
             this.Btn_ContactUser_Mu.Icon = global::App_SerialPort_Messenger.Properties.Resources.User_5;
+<<<<<<< HEAD
+            this.Btn_ContactUser_Mu.Location = new System.Drawing.Point(0, 129);
+            this.Btn_ContactUser_Mu.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
+            this.Btn_ContactUser_Mu.MouseState = MaterialSkin.MouseState.HOVER;
+            this.Btn_ContactUser_Mu.Name = "Btn_ContactUser_Mu";
+            this.Btn_ContactUser_Mu.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.Btn_ContactUser_Mu.Size = new System.Drawing.Size(212, 44);
+=======
             this.Btn_ContactUser_Mu.Location = new System.Drawing.Point(0, 105);
             this.Btn_ContactUser_Mu.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.Btn_ContactUser_Mu.MouseState = MaterialSkin.MouseState.HOVER;
             this.Btn_ContactUser_Mu.Name = "Btn_ContactUser_Mu";
             this.Btn_ContactUser_Mu.NoAccentTextColor = System.Drawing.Color.Empty;
             this.Btn_ContactUser_Mu.Size = new System.Drawing.Size(159, 36);
+>>>>>>> main
             this.Btn_ContactUser_Mu.TabIndex = 2;
             this.Btn_ContactUser_Mu.Text = "Mu";
             this.Btn_ContactUser_Mu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_ContactUser_Mu.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.Btn_ContactUser_Mu.UseAccentColor = false;
             this.Btn_ContactUser_Mu.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+=======
             this.Btn_ContactUser_Mu.Click += new System.EventHandler(this.Btn_ContactUser_Mu_Click);
+>>>>>>> main
             // 
             // Btn_ContactUser_Pi
             // 
@@ -159,19 +210,31 @@
             this.Btn_ContactUser_Pi.Depth = 0;
             this.Btn_ContactUser_Pi.HighEmphasis = true;
             this.Btn_ContactUser_Pi.Icon = global::App_SerialPort_Messenger.Properties.Resources.User_1;
+<<<<<<< HEAD
+            this.Btn_ContactUser_Pi.Location = new System.Drawing.Point(0, 247);
+            this.Btn_ContactUser_Pi.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
+            this.Btn_ContactUser_Pi.MouseState = MaterialSkin.MouseState.HOVER;
+            this.Btn_ContactUser_Pi.Name = "Btn_ContactUser_Pi";
+            this.Btn_ContactUser_Pi.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.Btn_ContactUser_Pi.Size = new System.Drawing.Size(212, 44);
+=======
             this.Btn_ContactUser_Pi.Location = new System.Drawing.Point(0, 201);
             this.Btn_ContactUser_Pi.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.Btn_ContactUser_Pi.MouseState = MaterialSkin.MouseState.HOVER;
             this.Btn_ContactUser_Pi.Name = "Btn_ContactUser_Pi";
             this.Btn_ContactUser_Pi.NoAccentTextColor = System.Drawing.Color.Empty;
             this.Btn_ContactUser_Pi.Size = new System.Drawing.Size(159, 36);
+>>>>>>> main
             this.Btn_ContactUser_Pi.TabIndex = 1;
             this.Btn_ContactUser_Pi.Text = "PI";
             this.Btn_ContactUser_Pi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_ContactUser_Pi.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.Btn_ContactUser_Pi.UseAccentColor = false;
             this.Btn_ContactUser_Pi.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+=======
             this.Btn_ContactUser_Pi.Click += new System.EventHandler(this.Btn_ContactUser_Pi_Click);
+>>>>>>> main
             // 
             // Btn_ContactUser_Alpha
             // 
@@ -181,19 +244,49 @@
             this.Btn_ContactUser_Alpha.Depth = 0;
             this.Btn_ContactUser_Alpha.HighEmphasis = true;
             this.Btn_ContactUser_Alpha.Icon = global::App_SerialPort_Messenger.Properties.Resources.User_4;
-            this.Btn_ContactUser_Alpha.Location = new System.Drawing.Point(0, 9);
-            this.Btn_ContactUser_Alpha.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.Btn_ContactUser_Alpha.Location = new System.Drawing.Point(0, 11);
+            this.Btn_ContactUser_Alpha.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
             this.Btn_ContactUser_Alpha.MouseState = MaterialSkin.MouseState.HOVER;
             this.Btn_ContactUser_Alpha.Name = "Btn_ContactUser_Alpha";
             this.Btn_ContactUser_Alpha.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.Btn_ContactUser_Alpha.Size = new System.Drawing.Size(159, 36);
+            this.Btn_ContactUser_Alpha.Size = new System.Drawing.Size(212, 44);
             this.Btn_ContactUser_Alpha.TabIndex = 0;
             this.Btn_ContactUser_Alpha.Text = "Alpha";
             this.Btn_ContactUser_Alpha.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_ContactUser_Alpha.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.Btn_ContactUser_Alpha.UseAccentColor = false;
             this.Btn_ContactUser_Alpha.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+            // 
+            // Chat_TextBox
+            // 
+            this.Chat_TextBox.AnimateReadOnly = false;
+            this.Chat_TextBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Chat_TextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.Chat_TextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Chat_TextBox.Depth = 0;
+            this.Chat_TextBox.HideSelection = true;
+            this.Chat_TextBox.Location = new System.Drawing.Point(37, 149);
+            this.Chat_TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Chat_TextBox.MaxLength = 32767;
+            this.Chat_TextBox.MouseState = MaterialSkin.MouseState.OUT;
+            this.Chat_TextBox.Name = "Chat_TextBox";
+            this.Chat_TextBox.PasswordChar = '\0';
+            this.Chat_TextBox.ReadOnly = true;
+            this.Chat_TextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.Chat_TextBox.SelectedText = "";
+            this.Chat_TextBox.SelectionLength = 0;
+            this.Chat_TextBox.SelectionStart = 0;
+            this.Chat_TextBox.ShortcutsEnabled = true;
+            this.Chat_TextBox.Size = new System.Drawing.Size(772, 294);
+            this.Chat_TextBox.TabIndex = 1;
+            this.Chat_TextBox.TabStop = false;
+            this.Chat_TextBox.Text = ">>";
+            this.Chat_TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.Chat_TextBox.UseSystemPasswordChar = false;
+=======
             this.Btn_ContactUser_Alpha.Click += new System.EventHandler(this.Btn_ContactUser_Alpha_Click);
+>>>>>>> main
             // 
             // Btn_Chatting_With
             // 
@@ -205,12 +298,12 @@
             this.Btn_Chatting_With.Enabled = false;
             this.Btn_Chatting_With.HighEmphasis = true;
             this.Btn_Chatting_With.Icon = null;
-            this.Btn_Chatting_With.Location = new System.Drawing.Point(28, 70);
-            this.Btn_Chatting_With.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.Btn_Chatting_With.Location = new System.Drawing.Point(37, 86);
+            this.Btn_Chatting_With.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
             this.Btn_Chatting_With.MouseState = MaterialSkin.MouseState.HOVER;
             this.Btn_Chatting_With.Name = "Btn_Chatting_With";
             this.Btn_Chatting_With.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.Btn_Chatting_With.Size = new System.Drawing.Size(578, 36);
+            this.Btn_Chatting_With.Size = new System.Drawing.Size(771, 44);
             this.Btn_Chatting_With.TabIndex = 2;
             this.Btn_Chatting_With.Text = "Currently chatting with: None";
             this.Btn_Chatting_With.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
@@ -228,7 +321,8 @@
             this.TxtBox_Message.HideSelection = true;
             this.TxtBox_Message.Hint = "...";
             this.TxtBox_Message.LeadingIcon = null;
-            this.TxtBox_Message.Location = new System.Drawing.Point(28, 376);
+            this.TxtBox_Message.Location = new System.Drawing.Point(37, 463);
+            this.TxtBox_Message.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtBox_Message.MaxLength = 32767;
             this.TxtBox_Message.MouseState = MaterialSkin.MouseState.OUT;
             this.TxtBox_Message.Name = "TxtBox_Message";
@@ -240,12 +334,13 @@
             this.TxtBox_Message.SelectionLength = 0;
             this.TxtBox_Message.SelectionStart = 0;
             this.TxtBox_Message.ShortcutsEnabled = true;
-            this.TxtBox_Message.Size = new System.Drawing.Size(579, 48);
+            this.TxtBox_Message.Size = new System.Drawing.Size(772, 48);
             this.TxtBox_Message.TabIndex = 3;
             this.TxtBox_Message.TabStop = false;
             this.TxtBox_Message.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.TxtBox_Message.TrailingIcon = null;
             this.TxtBox_Message.UseSystemPasswordChar = false;
+            this.TxtBox_Message.Click += new System.EventHandler(this.TxtBox_Message_Click);
             // 
             // Btn_SendMsg
             // 
@@ -255,12 +350,12 @@
             this.Btn_SendMsg.Depth = 0;
             this.Btn_SendMsg.HighEmphasis = true;
             this.Btn_SendMsg.Icon = global::App_SerialPort_Messenger.Properties.Resources.avance_rapido;
-            this.Btn_SendMsg.Location = new System.Drawing.Point(624, 376);
-            this.Btn_SendMsg.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.Btn_SendMsg.Location = new System.Drawing.Point(832, 463);
+            this.Btn_SendMsg.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
             this.Btn_SendMsg.MouseState = MaterialSkin.MouseState.HOVER;
             this.Btn_SendMsg.Name = "Btn_SendMsg";
             this.Btn_SendMsg.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.Btn_SendMsg.Size = new System.Drawing.Size(159, 48);
+            this.Btn_SendMsg.Size = new System.Drawing.Size(212, 59);
             this.Btn_SendMsg.TabIndex = 1;
             this.Btn_SendMsg.Text = "Send Message";
             this.Btn_SendMsg.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -269,6 +364,8 @@
             this.Btn_SendMsg.UseVisualStyleBackColor = true;
             this.Btn_SendMsg.Click += new System.EventHandler(this.Btn_SendMsg_Click);
             // 
+<<<<<<< HEAD
+=======
             // Chat_TextBox
             // 
             this.Chat_TextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -285,18 +382,25 @@
             this.Chat_TextBox.TabIndex = 4;
             this.Chat_TextBox.Text = ">>";
             // 
+>>>>>>> main
             // Main_Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(1067, 554);
+=======
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Chat_TextBox);
+>>>>>>> main
             this.Controls.Add(this.Btn_SendMsg);
             this.Controls.Add(this.TxtBox_Message);
             this.Controls.Add(this.Btn_Chatting_With);
             this.Controls.Add(this.UsersList);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Main_Dashboard";
+            this.Padding = new System.Windows.Forms.Padding(4, 79, 4, 4);
             this.Text = "Dino Forums";
             this.Load += new System.EventHandler(this.Main_Dashboard_Load);
             this.UsersList.ResumeLayout(false);
