@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "E:\\DinoNotes\\Electr\u00F3nica y programaci\u00F3n electr\u00F3nica\\Parcial 1\\Practicas\\Actividad_Antenas\\App_SerialPort_Messenger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0715C91-A0BC-45C6-AA96-5C9701196FFC}|App_SerialPort_Messenger\\App_SerialPort_Messenger.csproj|e:\\dinonotes\\electr\u00F3nica y programaci\u00F3n electr\u00F3nica\\parcial 1\\practicas\\actividad_antenas\\app_serialport_messenger\\app_serialport_messenger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D0715C91-A0BC-45C6-AA96-5C9701196FFC}|App_SerialPort_Messenger\\App_SerialPort_Messenger.csproj|solutionrelative:app_serialport_messenger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0715C91-A0BC-45C6-AA96-5C9701196FFC}|App_SerialPort_Messenger\\App_SerialPort_Messenger.csproj|E:\\DinoNotes\\Electr\u00F3nica y programaci\u00F3n electr\u00F3nica\\Parcial 1\\Practicas\\Actividad_Antenas\\App_SerialPort_Messenger\\app_serialport_messenger\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0715C91-A0BC-45C6-AA96-5C9701196FFC}|App_SerialPort_Messenger\\App_SerialPort_Messenger.csproj|solutionrelative:app_serialport_messenger\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D0715C91-A0BC-45C6-AA96-5C9701196FFC}|App_SerialPort_Messenger\\App_SerialPort_Messenger.csproj|E:\\DinoNotes\\Electr\u00F3nica y programaci\u00F3n electr\u00F3nica\\Parcial 1\\Practicas\\Actividad_Antenas\\App_SerialPort_Messenger\\app_serialport_messenger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0715C91-A0BC-45C6-AA96-5C9701196FFC}|App_SerialPort_Messenger\\App_SerialPort_Messenger.csproj|solutionrelative:app_serialport_messenger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0715C91-A0BC-45C6-AA96-5C9701196FFC}|App_SerialPort_Messenger\\App_SerialPort_Messenger.csproj|e:\\dinonotes\\electr\u00F3nica y programaci\u00F3n electr\u00F3nica\\parcial 1\\practicas\\actividad_antenas\\app_serialport_messenger\\app_serialport_messenger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D0715C91-A0BC-45C6-AA96-5C9701196FFC}|App_SerialPort_Messenger\\App_SerialPort_Messenger.csproj|solutionrelative:app_serialport_messenger\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,42 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "E:\\DinoNotes\\Electr\u00F3nica y programaci\u00F3n electr\u00F3nica\\Parcial 1\\Practicas\\Actividad_Antenas\\App_SerialPort_Messenger\\App_SerialPort_Messenger\\Form1.cs",
-              "RelativeDocumentMoniker": "App_SerialPort_Messenger\\Form1.cs",
-              "ToolTip": "E:\\DinoNotes\\Electr\u00F3nica y programaci\u00F3n electr\u00F3nica\\Parcial 1\\Practicas\\Actividad_Antenas\\App_SerialPort_Messenger\\App_SerialPort_Messenger\\Form1.cs [Design]",
-              "RelativeToolTip": "App_SerialPort_Messenger\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T22:32:11.098Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "E:\\DinoNotes\\Electr\u00F3nica y programaci\u00F3n electr\u00F3nica\\Parcial 1\\Practicas\\Actividad_Antenas\\App_SerialPort_Messenger\\App_SerialPort_Messenger\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "App_SerialPort_Messenger\\Form1.Designer.cs",
-              "ToolTip": "E:\\DinoNotes\\Electr\u00F3nica y programaci\u00F3n electr\u00F3nica\\Parcial 1\\Practicas\\Actividad_Antenas\\App_SerialPort_Messenger\\App_SerialPort_Messenger\\Form1.Designer.cs",
-              "RelativeToolTip": "App_SerialPort_Messenger\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIBAAAFAAAAAAAAAA==",
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "E:\\DinoNotes\\Electr\u00F3nica y programaci\u00F3n electr\u00F3nica\\Parcial 1\\Practicas\\Actividad_Antenas\\App_SerialPort_Messenger\\App_SerialPort_Messenger\\Form1.cs",
+              "RelativeDocumentMoniker": "App_SerialPort_Messenger\\Form1.cs",
+              "ToolTip": "E:\\DinoNotes\\Electr\u00F3nica y programaci\u00F3n electr\u00F3nica\\Parcial 1\\Practicas\\Actividad_Antenas\\App_SerialPort_Messenger\\App_SerialPort_Messenger\\Form1.cs [Design]*",
+              "RelativeToolTip": "App_SerialPort_Messenger\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T20:57:42.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T06:29:03.176Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\DinoNotes\\Electr\u00F3nica y programaci\u00F3n electr\u00F3nica\\Parcial 1\\Practicas\\Actividad_Antenas\\App_SerialPort_Messenger\\App_SerialPort_Messenger\\Form1.cs",
               "RelativeDocumentMoniker": "App_SerialPort_Messenger\\Form1.cs",
-              "ToolTip": "E:\\DinoNotes\\Electr\u00F3nica y programaci\u00F3n electr\u00F3nica\\Parcial 1\\Practicas\\Actividad_Antenas\\App_SerialPort_Messenger\\App_SerialPort_Messenger\\Form1.cs",
-              "RelativeToolTip": "App_SerialPort_Messenger\\Form1.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBsAAACWAAAAAAAAAA==",
+              "ToolTip": "E:\\DinoNotes\\Electr\u00F3nica y programaci\u00F3n electr\u00F3nica\\Parcial 1\\Practicas\\Actividad_Antenas\\App_SerialPort_Messenger\\App_SerialPort_Messenger\\Form1.cs*",
+              "RelativeToolTip": "App_SerialPort_Messenger\\Form1.cs*",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAuwGkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-28T20:28:44.638Z",
               "EditorCaption": ""
