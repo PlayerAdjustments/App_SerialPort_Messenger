@@ -43,7 +43,9 @@ namespace App_SerialPort_Messenger.bin.Debug.Logs
                 }
 
                 string user = GetUser(receivedData);
-                WriteInTxt(receivedData, user);
+
+                if (user != null)
+                    WriteInTxt(receivedData, user);
             }
         }
 
@@ -51,6 +53,10 @@ namespace App_SerialPort_Messenger.bin.Debug.Logs
             int startIndex = message.IndexOf("[") + 1;
             int endIndex = message.IndexOf(':');
 
+            if (startIndex == -1 || endIndex == -1 || startIndex >= endIndex)
+            {
+                return null;
+            } 
             return message.Substring(startIndex , endIndex - startIndex);
         }
 
