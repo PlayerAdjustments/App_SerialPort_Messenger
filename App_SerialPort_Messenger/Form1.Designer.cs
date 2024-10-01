@@ -423,4 +423,3 @@
         private MaterialSkin.Controls.MaterialMultiLineTextBox Chat_TextBox;
     }
 }
-

@@ -19,19 +19,19 @@ namespace App_SerialPort_Messenger
 {
     public partial class Main_Dashboard : MaterialForm
     {
-<<<<<<< HEAD
+//<<<<<<< HEAD
         private SerialPort serialPort;
-=======
+//=======
        
         List<Button> ContactUserBtns = new List<Button>();
-        string CurrentUser = "Mu";
+        string CurrentUser;
         string ChattingWith = null;
->>>>>>> main
+//>>>>>>> main
 
-        public Main_Dashboard()
+        public Main_Dashboard(string you)
         {
             InitializeComponent();
-
+            CurrentUser = you;
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
@@ -61,11 +61,13 @@ namespace App_SerialPort_Messenger
 
         }
 
-<<<<<<< HEAD
-        private void TxtBox_Message_Click(object sender, EventArgs e)
-        {
+        //<<<<<<< HEAD
 
-=======
+        //=======
+        //<<<<<<< HEAD
+        private void TxtBox_Message_Click(object sender, EventArgs e)
+        { }
+//=======
 
 
         /// <summary>
@@ -219,7 +221,8 @@ namespace App_SerialPort_Messenger
 
             // If we have something to send
             SendMessage(TxtBox_Message.Text.Trim(), this.ChattingWith);
->>>>>>> main
+//>>>>>>> main
+//>>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
         }
     }
 }
