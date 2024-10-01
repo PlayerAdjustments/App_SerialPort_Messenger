@@ -19,19 +19,19 @@ namespace App_SerialPort_Messenger
 {
     public partial class Main_Dashboard : MaterialForm
     {
-<<<<<<< HEAD
+//<<<<<<< HEAD
         private SerialPort serialPort;
-=======
+//=======
        
         List<Button> ContactUserBtns = new List<Button>();
-        string CurrentUser = "Mu";
+        string CurrentUser;
         string ChattingWith = null;
->>>>>>> main
+//>>>>>>> main
 
         public Main_Dashboard(string you)
         {
             InitializeComponent();
-            EnableYou(you);
+            CurrentUser = you;
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
@@ -61,23 +61,13 @@ namespace App_SerialPort_Messenger
 
         }
 
-<<<<<<< HEAD
-        private void EnableYou(string you)
-        {
-            Dictionary<string, Button> botones = new Dictionary<string, Button>()
-            {
-                { "alpha", Btn_ContactUser_Alpha}, {"beta", Btn_ContactUser_Beta}, 
-                {"mu", Btn_ContactUser_Mu }, {"xi", Btn_ContactUser_Xi}, {"pi", Btn_ContactUser_Pi}, 
-                {"omega", Btn_ContactUser_Omega}
-            };
+        //<<<<<<< HEAD
 
-            botones[you].Enabled = false;
-=======
-<<<<<<< HEAD
+        //=======
+        //<<<<<<< HEAD
         private void TxtBox_Message_Click(object sender, EventArgs e)
-        {
-
-=======
+        { }
+//=======
 
 
         /// <summary>
@@ -231,8 +221,8 @@ namespace App_SerialPort_Messenger
 
             // If we have something to send
             SendMessage(TxtBox_Message.Text.Trim(), this.ChattingWith);
->>>>>>> main
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
+//>>>>>>> main
+//>>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
         }
     }
 }

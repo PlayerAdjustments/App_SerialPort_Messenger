@@ -41,11 +41,8 @@
             this.Btn_SendMsg = new MaterialSkin.Controls.MaterialButton();
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
             this.Chat_TextBox = new MaterialSkin.Controls.MaterialMultiLineTextBox();
 >>>>>>> main
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             this.UsersList.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,17 +75,12 @@
             this.Btn_ContactUser_Omega.HighEmphasis = true;
             this.Btn_ContactUser_Omega.Icon = global::App_SerialPort_Messenger.Properties.Resources.User_6;
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             this.Btn_ContactUser_Omega.Location = new System.Drawing.Point(0, 303);
             this.Btn_ContactUser_Omega.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
             this.Btn_ContactUser_Omega.MouseState = MaterialSkin.MouseState.HOVER;
             this.Btn_ContactUser_Omega.Name = "Btn_ContactUser_Omega";
             this.Btn_ContactUser_Omega.NoAccentTextColor = System.Drawing.Color.Empty;
             this.Btn_ContactUser_Omega.Size = new System.Drawing.Size(212, 44);
-<<<<<<< HEAD
-=======
 =======
             this.Btn_ContactUser_Omega.Location = new System.Drawing.Point(0, 246);
             this.Btn_ContactUser_Omega.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
@@ -97,7 +89,6 @@
             this.Btn_ContactUser_Omega.NoAccentTextColor = System.Drawing.Color.Empty;
             this.Btn_ContactUser_Omega.Size = new System.Drawing.Size(159, 36);
 >>>>>>> main
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             this.Btn_ContactUser_Omega.TabIndex = 5;
             this.Btn_ContactUser_Omega.Text = "Omega";
             this.Btn_ContactUser_Omega.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -106,11 +97,8 @@
             this.Btn_ContactUser_Omega.UseVisualStyleBackColor = true;
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
             this.Btn_ContactUser_Omega.Click += new System.EventHandler(this.Btn_ContactUser_Omega_Click);
 >>>>>>> main
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             // 
             // Btn_ContactUser_Beta
             // 
@@ -121,17 +109,12 @@
             this.Btn_ContactUser_Beta.HighEmphasis = true;
             this.Btn_ContactUser_Beta.Icon = global::App_SerialPort_Messenger.Properties.Resources.User_3;
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             this.Btn_ContactUser_Beta.Location = new System.Drawing.Point(0, 70);
             this.Btn_ContactUser_Beta.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
             this.Btn_ContactUser_Beta.MouseState = MaterialSkin.MouseState.HOVER;
             this.Btn_ContactUser_Beta.Name = "Btn_ContactUser_Beta";
             this.Btn_ContactUser_Beta.NoAccentTextColor = System.Drawing.Color.Empty;
             this.Btn_ContactUser_Beta.Size = new System.Drawing.Size(212, 44);
-<<<<<<< HEAD
-=======
 =======
             this.Btn_ContactUser_Beta.Location = new System.Drawing.Point(0, 57);
             this.Btn_ContactUser_Beta.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
@@ -140,7 +123,6 @@
             this.Btn_ContactUser_Beta.NoAccentTextColor = System.Drawing.Color.Empty;
             this.Btn_ContactUser_Beta.Size = new System.Drawing.Size(159, 36);
 >>>>>>> main
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             this.Btn_ContactUser_Beta.TabIndex = 4;
             this.Btn_ContactUser_Beta.Text = "Beta";
             this.Btn_ContactUser_Beta.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -149,11 +131,8 @@
             this.Btn_ContactUser_Beta.UseVisualStyleBackColor = true;
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
             this.Btn_ContactUser_Beta.Click += new System.EventHandler(this.Btn_ContactUser_Beta_Click);
 >>>>>>> main
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             // 
             // Btn_ContactUser_Xi
             // 
@@ -164,17 +143,12 @@
             this.Btn_ContactUser_Xi.HighEmphasis = true;
             this.Btn_ContactUser_Xi.Icon = global::App_SerialPort_Messenger.Properties.Resources.User_2;
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             this.Btn_ContactUser_Xi.Location = new System.Drawing.Point(0, 188);
             this.Btn_ContactUser_Xi.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
             this.Btn_ContactUser_Xi.MouseState = MaterialSkin.MouseState.HOVER;
             this.Btn_ContactUser_Xi.Name = "Btn_ContactUser_Xi";
             this.Btn_ContactUser_Xi.NoAccentTextColor = System.Drawing.Color.Empty;
             this.Btn_ContactUser_Xi.Size = new System.Drawing.Size(212, 44);
-<<<<<<< HEAD
-=======
 =======
             this.Btn_ContactUser_Xi.Location = new System.Drawing.Point(0, 153);
             this.Btn_ContactUser_Xi.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
@@ -183,7 +157,6 @@
             this.Btn_ContactUser_Xi.NoAccentTextColor = System.Drawing.Color.Empty;
             this.Btn_ContactUser_Xi.Size = new System.Drawing.Size(159, 36);
 >>>>>>> main
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             this.Btn_ContactUser_Xi.TabIndex = 3;
             this.Btn_ContactUser_Xi.Text = "Xi";
             this.Btn_ContactUser_Xi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -192,11 +165,8 @@
             this.Btn_ContactUser_Xi.UseVisualStyleBackColor = true;
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
             this.Btn_ContactUser_Xi.Click += new System.EventHandler(this.Btn_ContactUser_Xi_Click);
 >>>>>>> main
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             // 
             // Btn_ContactUser_Mu
             // 
@@ -207,17 +177,12 @@
             this.Btn_ContactUser_Mu.HighEmphasis = true;
             this.Btn_ContactUser_Mu.Icon = global::App_SerialPort_Messenger.Properties.Resources.User_5;
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             this.Btn_ContactUser_Mu.Location = new System.Drawing.Point(0, 129);
             this.Btn_ContactUser_Mu.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
             this.Btn_ContactUser_Mu.MouseState = MaterialSkin.MouseState.HOVER;
             this.Btn_ContactUser_Mu.Name = "Btn_ContactUser_Mu";
             this.Btn_ContactUser_Mu.NoAccentTextColor = System.Drawing.Color.Empty;
             this.Btn_ContactUser_Mu.Size = new System.Drawing.Size(212, 44);
-<<<<<<< HEAD
-=======
 =======
             this.Btn_ContactUser_Mu.Location = new System.Drawing.Point(0, 105);
             this.Btn_ContactUser_Mu.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
@@ -226,7 +191,6 @@
             this.Btn_ContactUser_Mu.NoAccentTextColor = System.Drawing.Color.Empty;
             this.Btn_ContactUser_Mu.Size = new System.Drawing.Size(159, 36);
 >>>>>>> main
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             this.Btn_ContactUser_Mu.TabIndex = 2;
             this.Btn_ContactUser_Mu.Text = "Mu";
             this.Btn_ContactUser_Mu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -235,11 +199,8 @@
             this.Btn_ContactUser_Mu.UseVisualStyleBackColor = true;
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
             this.Btn_ContactUser_Mu.Click += new System.EventHandler(this.Btn_ContactUser_Mu_Click);
 >>>>>>> main
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             // 
             // Btn_ContactUser_Pi
             // 
@@ -250,17 +211,12 @@
             this.Btn_ContactUser_Pi.HighEmphasis = true;
             this.Btn_ContactUser_Pi.Icon = global::App_SerialPort_Messenger.Properties.Resources.User_1;
 <<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             this.Btn_ContactUser_Pi.Location = new System.Drawing.Point(0, 247);
             this.Btn_ContactUser_Pi.Margin = new System.Windows.Forms.Padding(5, 7, 5, 7);
             this.Btn_ContactUser_Pi.MouseState = MaterialSkin.MouseState.HOVER;
             this.Btn_ContactUser_Pi.Name = "Btn_ContactUser_Pi";
             this.Btn_ContactUser_Pi.NoAccentTextColor = System.Drawing.Color.Empty;
             this.Btn_ContactUser_Pi.Size = new System.Drawing.Size(212, 44);
-<<<<<<< HEAD
-=======
 =======
             this.Btn_ContactUser_Pi.Location = new System.Drawing.Point(0, 201);
             this.Btn_ContactUser_Pi.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
@@ -269,7 +225,6 @@
             this.Btn_ContactUser_Pi.NoAccentTextColor = System.Drawing.Color.Empty;
             this.Btn_ContactUser_Pi.Size = new System.Drawing.Size(159, 36);
 >>>>>>> main
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             this.Btn_ContactUser_Pi.TabIndex = 1;
             this.Btn_ContactUser_Pi.Text = "PI";
             this.Btn_ContactUser_Pi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -278,11 +233,8 @@
             this.Btn_ContactUser_Pi.UseVisualStyleBackColor = true;
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
             this.Btn_ContactUser_Pi.Click += new System.EventHandler(this.Btn_ContactUser_Pi_Click);
 >>>>>>> main
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             // 
             // Btn_ContactUser_Alpha
             // 
@@ -315,11 +267,7 @@
             this.Chat_TextBox.Depth = 0;
             this.Chat_TextBox.HideSelection = true;
             this.Chat_TextBox.Location = new System.Drawing.Point(37, 149);
-<<<<<<< HEAD
-            this.Chat_TextBox.Margin = new System.Windows.Forms.Padding(4);
-=======
             this.Chat_TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             this.Chat_TextBox.MaxLength = 32767;
             this.Chat_TextBox.MouseState = MaterialSkin.MouseState.OUT;
             this.Chat_TextBox.Name = "Chat_TextBox";
@@ -374,11 +322,7 @@
             this.TxtBox_Message.Hint = "...";
             this.TxtBox_Message.LeadingIcon = null;
             this.TxtBox_Message.Location = new System.Drawing.Point(37, 463);
-<<<<<<< HEAD
-            this.TxtBox_Message.Margin = new System.Windows.Forms.Padding(4);
-=======
             this.TxtBox_Message.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             this.TxtBox_Message.MaxLength = 32767;
             this.TxtBox_Message.MouseState = MaterialSkin.MouseState.OUT;
             this.TxtBox_Message.Name = "TxtBox_Message";
@@ -422,8 +366,6 @@
             // 
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
-=======
             // Chat_TextBox
             // 
             this.Chat_TextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
@@ -441,7 +383,6 @@
             this.Chat_TextBox.Text = ">>";
             // 
 >>>>>>> main
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             // Main_Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -449,23 +390,15 @@
 <<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(1067, 554);
 =======
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(1067, 554);
-=======
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Chat_TextBox);
 >>>>>>> main
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             this.Controls.Add(this.Btn_SendMsg);
             this.Controls.Add(this.TxtBox_Message);
             this.Controls.Add(this.Btn_Chatting_With);
             this.Controls.Add(this.UsersList);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-<<<<<<< HEAD
-            this.Margin = new System.Windows.Forms.Padding(4);
-=======
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
             this.Name = "Main_Dashboard";
             this.Padding = new System.Windows.Forms.Padding(4, 79, 4, 4);
             this.Text = "Dino Forums";
@@ -476,6 +409,8 @@
         }
 
         #endregion
+
+        private MaterialSkin.Controls.MaterialCard UsersList;
         private MaterialSkin.Controls.MaterialButton Btn_ContactUser_Alpha;
         private MaterialSkin.Controls.MaterialButton Btn_Chatting_With;
         private MaterialSkin.Controls.MaterialTextBox2 TxtBox_Message;
@@ -485,11 +420,6 @@
         private MaterialSkin.Controls.MaterialButton Btn_ContactUser_Xi;
         private MaterialSkin.Controls.MaterialButton Btn_ContactUser_Mu;
         private MaterialSkin.Controls.MaterialButton Btn_ContactUser_Pi;
-<<<<<<< HEAD
-        private MaterialSkin.Controls.MaterialCard UsersList;
-=======
         private MaterialSkin.Controls.MaterialMultiLineTextBox Chat_TextBox;
->>>>>>> 7bff3f23e181e4aab54923ead0190f2c939c75dc
     }
 }
-
