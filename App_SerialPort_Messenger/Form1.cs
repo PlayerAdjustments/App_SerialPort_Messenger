@@ -18,10 +18,10 @@ namespace App_SerialPort_Messenger
     public partial class Main_Dashboard : MaterialForm
     {
 
-        public Main_Dashboard()
+        public Main_Dashboard(string you)
         {
             InitializeComponent();
-
+            EnableYou(you);
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.DARK;
@@ -45,6 +45,18 @@ namespace App_SerialPort_Messenger
         private void UsersList_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void EnableYou(string you)
+        {
+            Dictionary<string, Button> botones = new Dictionary<string, Button>()
+            {
+                { "alpha", Btn_ContactUser_Alpha}, {"beta", Btn_ContactUser_Beta}, 
+                {"mu", Btn_ContactUser_Mu }, {"xi", Btn_ContactUser_Xi}, {"pi", Btn_ContactUser_Pi}, 
+                {"omega", Btn_ContactUser_Omega}
+            };
+
+            botones[you].Enabled = false;
         }
     }
 }
