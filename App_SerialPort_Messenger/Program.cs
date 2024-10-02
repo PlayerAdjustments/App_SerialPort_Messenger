@@ -16,7 +16,7 @@ namespace App_SerialPort_Messenger
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main_Dashboard());
+            Application.Run(new SetupForms());
         }
     }
 }

@@ -274,7 +274,7 @@
             this.Chat_TextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.Chat_TextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Chat_TextBox.Depth = 0;
-            this.Chat_TextBox.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.Chat_TextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.Chat_TextBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.Chat_TextBox.Location = new System.Drawing.Point(28, 115);
             this.Chat_TextBox.MouseState = MaterialSkin.MouseState.HOVER;
@@ -298,7 +298,9 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Main_Dashboard";
             this.Text = "Dino Forums";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Main_Dashboard_FormClosing);
             this.Load += new System.EventHandler(this.Main_Dashboard_Load);
+            this.Shown += new System.EventHandler(this.Main_Dashboard_Shown);
             this.UsersList.ResumeLayout(false);
             this.ResumeLayout(false);
 
