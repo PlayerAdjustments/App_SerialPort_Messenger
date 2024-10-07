@@ -355,11 +355,9 @@ namespace App_SerialPort_Messenger
 
                     Console.WriteLine($"Both SenderNode {senderID} and ReceiverNode {receiverID} were succesfull");
 
-                    string cleanedMessage = Regex.Replace(msg, @"[^a-zA-Z0-9\s]", "");
-
                     string logsTo = Enum.GetName(typeof(AvailableUsers), senderID);
                     string filePath = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), "Logs", $"Log_{logsTo}.txt");
-                    string formattedMsg = $">> [{logsTo}: {DateTime.UtcNow}] {cleanedMessage}";
+                    string formattedMsg = $">> [{logsTo}: {DateTime.UtcNow}] {msg}";
 
 
                     using (StreamWriter sr = new StreamWriter(filePath, true))

@@ -106,8 +106,8 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ferzg\\App_SerialPort_Messenger\\App_SerialPort_Messenger\\Form1.cs",
               "RelativeDocumentMoniker": "App_SerialPort_Messenger\\Form1.cs",
-              "ToolTip": "C:\\Users\\ferzg\\App_SerialPort_Messenger\\App_SerialPort_Messenger\\Form1.cs [Design]",
-              "RelativeToolTip": "App_SerialPort_Messenger\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\ferzg\\App_SerialPort_Messenger\\App_SerialPort_Messenger\\Form1.cs [Design]*",
+              "RelativeToolTip": "App_SerialPort_Messenger\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T06:29:03.176Z",
               "EditorCaption": " [Design]"
@@ -118,9 +118,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\ferzg\\App_SerialPort_Messenger\\App_SerialPort_Messenger\\Form1.cs",
               "RelativeDocumentMoniker": "App_SerialPort_Messenger\\Form1.cs",
-              "ToolTip": "C:\\Users\\ferzg\\App_SerialPort_Messenger\\App_SerialPort_Messenger\\Form1.cs",
-              "RelativeToolTip": "App_SerialPort_Messenger\\Form1.cs",
-              "ViewState": "AgIAAEgBAAAAAAAAAAAAwGEBAAARAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ferzg\\App_SerialPort_Messenger\\App_SerialPort_Messenger\\Form1.cs*",
+              "RelativeToolTip": "App_SerialPort_Messenger\\Form1.cs*",
+              "ViewState": "AgIAAEgBAAAAAAAAAAAAwGQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-28T20:28:44.638Z",
               "EditorCaption": ""
