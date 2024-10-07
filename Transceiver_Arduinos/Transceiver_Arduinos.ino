@@ -5,6 +5,8 @@
 #define CE_PIN  7
 #define CSN_PIN 8
 
+#define PAYLOAD_LENGHT 200
+
 RF24 radio(CE_PIN, CSN_PIN);
 
 const uint8_t address[][6] = { "1Node", "2Node", "3Node", "4Node", "5Node", "6Node" };
@@ -13,7 +15,7 @@ uint8_t nodeID = 0;
 
 struct PayloadStruct
 {
-  char message[64];
+  char message[PAYLOAD_LENGHT];
   uint8_t counter;
 };
 
@@ -54,7 +56,7 @@ void loop() {
 
     // Parse the incoming message
     int transmitterNode, receiverNode;
-    char customMessage[32]; // Buffer for custom message
+    char customMessage[100]; // Buffer for custom message
 
     // Extract the message format "{TransmitterNode} {ReceiverNode} {CustomMessage}"
     if (sscanf(payload.message, "%d %d %[^\n]", &transmitterNode, &receiverNode, customMessage) == 3)
@@ -81,13 +83,19 @@ void loop() {
   if (Serial.available()) // Check if there's input from the Serial Monitor
   {
     radio.stopListening(); // Stop listening for incoming messages
+
+    String input_monitor = Serial.readString();
+
+    input_monitor[PAYLOAD_LENGHT-1] = '\n';
+
     // Read the input into a buffer
-    char inputMessage[50]; // Adjust size as needed
-    Serial.readBytesUntil('\n', inputMessage, sizeof(inputMessage));
+    char inputMessage[PAYLOAD_LENGHT]; // Adjust size as needed
+
+    input_monitor.toCharArray(inputMessage, sizeof(inputMessage));
 
     // Parse the receiver node and custom message
     int receiverNode;
-    char customMessage[32]; // Adjust size as needed
+    char customMessage[PAYLOAD_LENGHT]; // Adjust size as needed
 
     // Use sscanf to extract receiver node and message from input
     if (sscanf(inputMessage, "%d %[^\n]", &receiverNode, customMessage) == 2)
@@ -101,7 +109,7 @@ void loop() {
         // Format the message as "{TransmitterNode} {ReceiverNode} {CustomMessage}"
         snprintf(payload.message, sizeof(payload.message), "%d %d %s", nodeID, receiverNode, customMessage);
         radio.openWritingPipe(address[i]); // Open the pipe to the specific receiver
-        
+
         // Send the payload
         bool success = radio.write(&payload, sizeof(payload)); 
 

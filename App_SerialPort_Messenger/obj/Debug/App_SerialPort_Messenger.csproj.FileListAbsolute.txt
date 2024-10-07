@@ -13,3 +13,18 @@ E:\DinoNotes\Electrónica y programación electrónica\Parcial 1\Practicas\Activ
 E:\DinoNotes\Electrónica y programación electrónica\Parcial 1\Practicas\Actividad_Antenas\App_SerialPort_Messenger\App_SerialPort_Messenger\obj\Debug\App_SerialPort_Messenger.SetupForms.resources
 E:\DinoNotes\Electrónica y programación electrónica\Parcial 1\Practicas\Actividad_Antenas\App_SerialPort_Messenger\App_SerialPort_Messenger\bin\Debug\Newtonsoft.Json.dll
 E:\DinoNotes\Electrónica y programación electrónica\Parcial 1\Practicas\Actividad_Antenas\App_SerialPort_Messenger\App_SerialPort_Messenger\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ferzg\App_SerialPort_Messenger\App_SerialPort_Messenger\bin\Debug\App_SerialPort_Messenger.exe.config
+C:\Users\ferzg\App_SerialPort_Messenger\App_SerialPort_Messenger\bin\Debug\App_SerialPort_Messenger.exe
+C:\Users\ferzg\App_SerialPort_Messenger\App_SerialPort_Messenger\bin\Debug\App_SerialPort_Messenger.pdb
+C:\Users\ferzg\App_SerialPort_Messenger\App_SerialPort_Messenger\bin\Debug\MaterialSkin.dll
+C:\Users\ferzg\App_SerialPort_Messenger\App_SerialPort_Messenger\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ferzg\App_SerialPort_Messenger\App_SerialPort_Messenger\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ferzg\App_SerialPort_Messenger\App_SerialPort_Messenger\obj\Debug\App_SerialPort_Messenger.csproj.AssemblyReference.cache
+C:\Users\ferzg\App_SerialPort_Messenger\App_SerialPort_Messenger\obj\Debug\App_SerialPort_Messenger.Main_Dashboard.resources
+C:\Users\ferzg\App_SerialPort_Messenger\App_SerialPort_Messenger\obj\Debug\App_SerialPort_Messenger.SetupForms.resources
+C:\Users\ferzg\App_SerialPort_Messenger\App_SerialPort_Messenger\obj\Debug\App_SerialPort_Messenger.Properties.Resources.resources
+C:\Users\ferzg\App_SerialPort_Messenger\App_SerialPort_Messenger\obj\Debug\App_SerialPort_Messenger.csproj.GenerateResource.cache
+C:\Users\ferzg\App_SerialPort_Messenger\App_SerialPort_Messenger\obj\Debug\App_SerialPort_Messenger.csproj.CoreCompileInputs.cache
+C:\Users\ferzg\App_SerialPort_Messenger\App_SerialPort_Messenger\obj\Debug\App_Seri.1A353677.Up2Date
+C:\Users\ferzg\App_SerialPort_Messenger\App_SerialPort_Messenger\obj\Debug\App_SerialPort_Messenger.exe
+C:\Users\ferzg\App_SerialPort_Messenger\App_SerialPort_Messenger\obj\Debug\App_SerialPort_Messenger.pdb
